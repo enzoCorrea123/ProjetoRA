@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&family=Viga&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #13293D;
+}
+.header{
+    background-color: #3576AC;
+}
+.lego{
+    width: 5%;
+    padding: 0.5%;
+}
+h1,a{
+    font-family: 'Snowburst One', cursive;
+
+}
+p{
+    font-family: 'Viga', sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.title{
+    font-size: 90px;
+    color: white;
+}
+.flex-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3%;
+}
+.txt{
+    color: white;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+
+    color: black;
+    background-color: #D9D9D9;
+    padding: 10% 20%;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+@media (max-width: 1000px) {
+    .lego{
+        width: 12%;
+        padding: 2%;
+    }
+    .title{
+        font-size: 40px;
+        color: white;
+    }
+    .floquinho{
+        width: 10%;
+    }
+    .flex-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2%;
+    }
+    .txt{
+        color: white;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+  footer{
+    color: rgb(165, 165, 165);
+    padding-top: 3%;
+}
+}
