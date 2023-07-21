@@ -5,6 +5,9 @@
 }
 body{
     background-color: #13293D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .header{
     background-color: #3576AC;
@@ -47,6 +50,10 @@ p{
     justify-content: center;
     margin: auto;
 }
+.div-btn{
+  display:flex;
+  justify-content: center;
+}
 .btn{
     text-decoration: none;
     font-weight: bold;
@@ -60,6 +67,7 @@ p{
     background-color: #D9D9D9;
     padding: 10% 20%;
     border-radius: 30px;
+  
 
 }
 .btn:hover{
@@ -68,6 +76,9 @@ p{
     transition: 0.3s;
 }
 @media (max-width: 1000px) {
+  .flex{
+       margin-inline:10%;
+  }
     .lego{
         width: 12%;
         padding: 2%;
@@ -96,8 +107,12 @@ p{
         justify-content: center;
         margin: auto;
     }
-  footer{
-    color: rgb(165, 165, 165);
-    padding-top: 3%;
+     footer{
+       background-color: #000000;
+        color: rgb(228, 228, 228);
+       font-size: 15px;
+       margin-top: 10%;
+       padding: 10%;
+       text-align: center;
 }
 }
